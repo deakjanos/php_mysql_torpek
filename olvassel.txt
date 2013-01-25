@@ -1,0 +1,16 @@
+mysql_handler.php:
+Adatbázis létrehozásához
+
+mysql_create_db.php:
+Az előző szkript alapján létrehozza az adatbázist.
+
+Az így létrehozott adatokat tegyük a megfelelő helyre a
+felhasznalok_kinyerese.php-ben.
+
+belepo.php
+Űrlap a belépéshez.
+Az itt megadott adatokkal dolgozik az előző szkript (felhasznalok_kinyerese.php).
+
+felhasznalok_kinyerese.php
+Összeveti a létrehozott adatbázis adataival a megadottakat és ha
+egyezést talál, akkor a felhasználónak megfelelő oldalt hívja meg.
